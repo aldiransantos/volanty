@@ -31,3 +31,29 @@
     transform: rotate(360deg);
   }
 }
+
+form, .result {
+  width: 50%;
+  margin: 80px auto;
+}
+
+.result {
+  text-align: center;
+}
+
+.result > p {
+  font-weight: bold;
+}
+
+.result > p span {
+  font-weight: normal;
+}
+
+select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.break {
+  display: flex;
+}
